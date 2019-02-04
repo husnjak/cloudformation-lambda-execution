@@ -8,7 +8,7 @@ class HelloHandler: RequestStreamHandler {
         context?.logger?.log("Hello world")
         val result = ("{"
                 + "\"statusCode\":\"200\","
-                + "\"body\":\"Great success!\","
+                + "\"body\":\"Great success! AGAIN!\","
                 + "\"headers\":{}"
                 + "}")
         output?.write(result.toByteArray())
