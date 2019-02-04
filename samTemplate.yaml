@@ -7,7 +7,7 @@ Resources:
     Properties:
       Handler: HelloHandler
       Runtime: java8
-      CodeUri: ./
+      CodeUri: ./src
       Events:
         MyTimeApi:
           Type: Api
