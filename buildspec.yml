@@ -2,7 +2,7 @@ version: 0.2
 phases:
   install:
     commands:
-      - ./gradlew clean shadowJar
+#      - ./gradlew clean shadowJar
       - aws cloudformation package --template-file samTemplate.yaml --kms-key-id 9ca66003-2df1-4afd-9464-bf5a44ffef13 --s3-bucket igdb-sam-test
                                    --output-template-file outputSamTemplate.yaml
 artifacts:
