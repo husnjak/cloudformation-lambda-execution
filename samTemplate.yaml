@@ -7,7 +7,7 @@ Resources:
     Properties:
       Handler: HelloHandler
       Runtime: java8
-      CodeUri: ./build/libs/kotlin-sam-deployment-example-1.0.jar
+      CodeUri: ./build/libs/kotlin-sam-deployment-example-1.0-all.jar
       Events:
         MyTimeApi:
           Type: Api
