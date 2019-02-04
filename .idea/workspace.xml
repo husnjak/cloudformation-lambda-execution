@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="14c80b91-c2d4-47a6-b31e-5eeeb7789048" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/buildspec.yml" beforeDir="false" afterPath="$PROJECT_DIR$/buildspec.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samTemplate.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/samTemplate.yaml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -89,7 +88,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/samTemplate.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
@@ -98,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/buildspec.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="104">
+              <caret line="4" selection-start-line="4" selection-start-column="1" selection-end-line="9" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -137,8 +136,8 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/template.yaml" />
         <option value="$PROJECT_DIR$/gradle.properties" />
-        <option value="$PROJECT_DIR$/buildspec.yml" />
         <option value="$PROJECT_DIR$/samTemplate.yaml" />
+        <option value="$PROJECT_DIR$/buildspec.yml" />
       </list>
     </option>
   </component>
@@ -431,17 +430,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buildspec.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/samTemplate.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildspec.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" selection-start-line="4" selection-start-column="1" selection-end-line="9" selection-end-column="34" />
         </state>
       </provider>
     </entry>
