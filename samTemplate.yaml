@@ -14,7 +14,3 @@ Resources:
           Properties:
             Path: /hello
             Method: GET
-        CheckWebsiteScheduledEvent:
-          Type: Schedule
-          Properties:
-            Schedule: rate(1 minute)
