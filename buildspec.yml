@@ -2,7 +2,11 @@ version: 0.2
 phases:
   install:
     commands:
+#     Create JAR
       - gradle shadowJar
+#     Update database structure
+      - gradle update
+#     create cloudformation template
       - aws cloudformation package --template-file samTemplate.yaml --kms-key-id 9ca66003-2df1-4afd-9464-bf5a44ffef13 --s3-bucket codepipeline-us-east-1-496872723175
                                    --output-template-file outputSamTemplate.yaml
 artifacts:

@@ -1,0 +1,28 @@
+---
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: filip
+      changes:
+        - createTable:
+            tableName: testing
+            columns:
+              - column:
+                  name: integer
+                  type: int
+              - column:
+                  name: text
+                  type: text
+  - changeSet:
+      id: 2
+      author: filip
+      changes:
+        - createTable:
+            tableName: testingagain
+            columns:
+              - column:
+                  name: integer
+                  type: int
+              - column:
+                  name: text
+                  type: text
